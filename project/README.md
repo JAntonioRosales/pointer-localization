@@ -7,7 +7,9 @@ A museum is developing a virtual reality (VR) reconstruction of a region of Lond
 
 Your program must accept precisely one argument from the command line, the name of the image to be processed, as in:
 
-`python3 mapreader.py develop/develop-001.png`
+```
+python3 mapreader.py develop/develop-001.png
+```
 
 It should output two lines in the following format:
 
