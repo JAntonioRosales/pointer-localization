@@ -7,12 +7,12 @@ A museum is developing a virtual reality (VR) reconstruction of a region of Lond
 
 Your program must accept precisely one argument from the command line, the name of the image to be processed, as in:
 
-python3 mapreader.py develop/develop-001.png
+> python3 mapreader.py develop/develop-001.png
 
 It should output two lines in the following format:
 
-POSITION 0.673 0.212
-BEARING 316.4
+>POSITION 0.673 0.212
+>BEARING 316.4
 
 The two numbers following POSITION represent the location of the point of the red pointer, being respectively the distance along the bottom of the map and the distance up its side, with the origin at the bottom left-hand (south west) corner. These numbers should both be in the range 0–1. The number following BEARING should be the angle in which the red pointer is pointing, given in degrees measured clockwise from north.
 
