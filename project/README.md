@@ -24,6 +24,6 @@ Any other output it generates is ignored. Your submitted program must not displa
 
 ## Code structure
 
-The code developed for the project is named mapreader.py and it can be found in this same directory.
+The code developed for the project is named `mapreader.py` and it can be found in this same directory.
 
 The first part of the code defines a set of routines used throughout the assignment. The main program first segments the map (region of interest) and rectifies the image. It then identifies the orientation arrow to determine if the map is upside-down and rotates it if necessary. Finally, the pointer arrow is processed to locate its tip and calculate its bearing. These values are printed at the end.
